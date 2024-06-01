@@ -1,15 +1,12 @@
-.main {
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Full viewport height */
-    background: url(../images/5224434.jpg) no-repeat center center; /* Center the background image */
-    background-size: cover; /* Cover the entire container */
+.main{
+    min-height: 100vh;
+    background: url(../images/5224434.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
-.wrapper {
+.wrapper{
     width: 420px;
-    background: rgba(0, 0, 0, 0.6); /* Use a semi-transparent background for better visibility */
+    background: transparent;
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
@@ -17,7 +14,8 @@
 
 .wrapper h1 {
     font-size: 36px;
-    text-align: center;
+    text-align:  center;
+
 }
 
 .wrapper .input-box {
@@ -36,11 +34,11 @@
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
-    padding: 0 45px 0 20px; /* Adjust padding to fit the icon */
+    color: #fff;  
+    padding: 20px 45px 20px 20px;  
 }
 
-.input-box input::placeholder {
+.input-box input::placeholder{
     color: #fff;
 }
 
@@ -73,7 +71,7 @@
     text-decoration: underline;
 }
 
-.wrapper button {
+.wrapper button{
     width: 100%;
     height: 45px;
     background: #fff;

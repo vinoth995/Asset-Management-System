@@ -3,7 +3,6 @@ import Chart from "chart.js/auto";
 import { Doughnut, Line } from "react-chartjs-2";
 import { Bar } from "react-chartjs-2";
 
-
 function HomePage() {
   const labels1 = ["ITE", "MINDEF", "NCCS", "MOE", "NUH", "SNDGO"];
   const data1 = {
@@ -32,7 +31,7 @@ function HomePage() {
         hoverOffset: 4,
       },
     ],
-  };  
+  };
 
   const labels = ["Aug", "Sep", "Oct", "Nov", "Dec"];
   const data2 = {
@@ -58,11 +57,9 @@ function HomePage() {
     alignItems: "center",
     height: chartContainerHeight,
   };
-  
 
   return (
     <>
-
       {/* Container for Rows */}
       <div style={{ display: "flex", flexDirection: "column" }}>
         {/* First Row - Charts */}
@@ -72,22 +69,38 @@ function HomePage() {
             flexDirection: "row",
             justifyContent: "space-between",
           }}
-          
         >
-         <div style={{ width: "", height: chartHeight }}>
-    <Line data={data1} width="100%" height="100%" />
-    <img src="src/images/image1.jpg" alt="Description of image 1" style={{ width: "100%", height: "auto" }} />
-</div>
+          <div style={{ width: "", height: chartHeight }}>
+            <Line data={data1} width="100%" height="100%" />
+            <img
+              src="src/images/image1.jpg"
+              alt="Description of image 1"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
 
-<div style={{ width: "", height: chartContainerHeight }}>
-    <Doughnut data={data} options={{ maintainAspectRatio: false }} width="100%" height="100%" />
-    <img src="src/images/image2.jpg" alt="Description of image 2" style={{ width: "100%", height: "auto" }} />
-</div>
+          <div style={{ width: "", height: chartContainerHeight }}>
+            <Doughnut
+              data={data}
+              options={{ maintainAspectRatio: false }}
+              width="100%"
+              height="100%"
+            />
+            <img
+              src="src/images/image2.jpg"
+              alt="Description of image 2"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
 
-<div style={{ width: "", height: chartHeight }}>
-    <Bar data={data2} width="100%" height="100%" />
-    <img src="src/images/image3.jpg" alt="Description of image 3" style={{ width: "100%", height: "auto" }} />
-</div>
+          <div style={{ width: "", height: chartHeight }}>
+            <Bar data={data2} width="100%" height="100%" />
+            <img
+              src="src/images/image3.jpg"
+              alt="Description of image 3"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
         </div>
 
         {/* Divider */}
@@ -105,11 +118,11 @@ function HomePage() {
             />
           </div>
           <div
-            style={{ width: "48%", height: imageHeight, overflow: "hidden" }} 
+            style={{ width: "48%", height: imageHeight, overflow: "hidden" }}
           >
             <img
-              src="https://p2-ofp.static.pub/fes/cms/2023/02/10/tulgddbyt3lkqj8p0x48ydxbm25ien237231.png"
-              alt="Right Image"
+              src="https://p-sg.ipricegroup.com/uploaded_3152a740c68a4365b947852d87c9ac72a1d2d000.png"
+              alt="right Image"
               style={{ width: "100%", height: "100%", objectFit: "contain" }}
             />
           </div>

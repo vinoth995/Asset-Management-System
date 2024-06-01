@@ -9,6 +9,11 @@ import Form from './Pages/Form';
 import LoginForm from './LoginForm/LoginForm';
 import Profile from './Pages/ProfilePage';
 import Register from './Pages/RegisterPage';
+import Auth from './components/auth';
+import Firebase from './config/firebase';
+
+
+ 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export const TableContext = createContext();
@@ -27,7 +32,6 @@ function App() {
     }
   },[])
   return (
-      // <HomePage> </HomePage>
       <>
           <TableContext.Provider value={{ tableHeaders, setTableHeaders, tableData, setTableData, userDetails, setUserDetails }}>
 

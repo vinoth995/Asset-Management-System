@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const navigation = [
   { name: "Dashboard", href: "dashboard", current: true },
   { name: "Asset List", href: "asset", current: false },
-  { name: "Deployment", href: "", current: false },
+  { name: "Deployment", href: "layout", current: false },
   { name: "Forms", href: "form", current: false },
 
 ];
@@ -42,7 +42,7 @@ export default function NavBar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="asset.png"
+                    src="https://cdn-icons-png.flaticon.com/512/10841/10841340.png"
                     alt="AMS"
                   />
                 </div>
@@ -85,7 +85,7 @@ export default function NavBar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="icon.jpeg"
+                        src=" https://cdn-icons-png.flaticon.com/512/1144/1144760.png "
                         alt=""
                       />
                     </Menu.Button>

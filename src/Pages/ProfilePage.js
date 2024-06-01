@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';  // Assuming NavBar component is in the same directory
 
+
 function ProfilePage() {
   return (
     <>
