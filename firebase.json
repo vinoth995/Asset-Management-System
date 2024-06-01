@@ -1,0 +1,20 @@
+{
+  "database": {
+    "rules": "datebase.rules.json"
+  },
+  "hosting": {
+    "site": "amsv1",
+    "public": "y",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

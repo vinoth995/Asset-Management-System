@@ -45,6 +45,8 @@ export const Auth = () => {
                 </div>
                 
                 <button onClick={signIn}> Sign In </button>
+                <br>
+                </br>
                 <button onClick={signInWithGoogle}> Google Sign In </button>
             
                 <div className='register-link'>

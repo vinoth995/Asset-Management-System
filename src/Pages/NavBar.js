@@ -20,6 +20,8 @@ function classNames(...classes) {
 export default function NavBar() {
   const [profilePageOpen, setProfilePageOpen] = useState(false);
 
+
+  
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (

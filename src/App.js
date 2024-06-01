@@ -15,6 +15,7 @@ import Firebase from './config/firebase';
 
  
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 export const TableContext = createContext();
 
@@ -37,7 +38,7 @@ function App() {
 
 <Router>
   <div>
-    {userDetails == null ? null :<NavBar />}
+    {createUserWithEmailAndPassword == null ? null :<NavBar />}
     <Routes>
       <Route path="/dashboard" element={<Dashboard/>} />
       <Route path="/asset" element={<Asset/>} />

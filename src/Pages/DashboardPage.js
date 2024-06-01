@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import NavBar from "./NavBar";
 import Chart from "chart.js/auto";
 import { Doughnut, Line } from "react-chartjs-2";
@@ -110,7 +111,9 @@ function HomePage() {
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <div
             style={{ width: "48%", height: imageHeight, overflow: "hidden" }}
+          // eslint-disable-next-line react/jsx-no-comment-textnodes
           >
+            // eslint-disable-next-line jsx-a11y/img-redundant-alt
             <img
               src="https://p1-ofp.static.pub//fes/cms/2024/03/27/ud9jttaevhf5be2aa5s6p6cbl6bi51924891.png"
               alt="Left Image"

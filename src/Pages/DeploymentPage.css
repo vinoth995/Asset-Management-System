@@ -1,0 +1,38 @@
+/* Styles for the deployment page container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: aqua;
+  }
+  
+  /* Styles for the deployment page title */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for individual chart/graph containers */
+  .chart-container {
+    margin-bottom: 40px;
+  }
+  
+  /* Styles for chart/graph titles */
+  .chart-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the line chart */
+  .canvas-container {
+    width: 100%;
+  }
+  
+  /* Styles for the tree graph */
+  .tree-container {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  /* Add more specific styles for individual charts/graphs as needed */
+  
